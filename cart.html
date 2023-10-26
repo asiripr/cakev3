@@ -1,0 +1,594 @@
+<html>
+	<head>
+		<title>Pramodaya's Cake Store</title>
+		<script src="https://kit.fontawesome.com/139e940b92.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="home_style.css"/>
+		<link rel="icon" type="image/x-icon" href="logo.ico">
+		
+		<script type="text/javascript">
+			
+			function removeItem_a1() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a1").closest("tr").rowIndex);
+			} 
+			function removeItem_a2() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a2").closest("tr").rowIndex);
+			} 
+			function removeItem_a3() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a3").closest("tr").rowIndex);
+			} 
+			function removeItem_a4() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a4").closest("tr").rowIndex);
+			}
+			function removeItem_a5() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a5").closest("tr").rowIndex);
+			}
+			function removeItem_a6() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a6").closest("tr").rowIndex);
+			} 
+			function removeItem_a7() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a7").closest("tr").rowIndex);
+			} 
+			function removeItem_a8() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a8").closest("tr").rowIndex);
+			} 
+			function removeItem_a9() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-a9").closest("tr").rowIndex);
+			}
+			function removeItem_b1() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b1").closest("tr").rowIndex);
+			}
+			function removeItem_b2() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b2").closest("tr").rowIndex);
+			} 
+			function removeItem_b3() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b3").closest("tr").rowIndex);
+			} 
+			function removeItem_b4() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b4").closest("tr").rowIndex);
+			} 
+			function removeItem_b5() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b5").closest("tr").rowIndex);
+			}
+			function removeItem_b6() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-b6").closest("tr").rowIndex);
+			}
+			function removeItem_c1() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-c1").closest("tr").rowIndex);
+			} 
+			function removeItem_c2() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-c2").closest("tr").rowIndex);
+			} 
+			function removeItem_c3() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-c3").closest("tr").rowIndex);
+			} 
+			function removeItem_c4() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-c4").closest("tr").rowIndex);
+			}
+			function removeItem_c5() {
+				document.getElementById("myTable").deleteRow(document.getElementById("btn-remove-c5").closest("tr").rowIndex);
+			}
+			
+			
+			function addToCart_a1(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a1");
+				x.setAttribute("onclick", "removeItem_a1()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Sponge Cake";
+				cell2.innerHTML="820 LKR";			
+}
+			function addToCart_a2(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a2");
+				x.setAttribute("onclick", "removeItem_a2()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Baked lemon cheesecake";
+				cell2.innerHTML="930 LKR";			
+}
+			function addToCart_a3(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a3");
+				x.setAttribute("onclick", "removeItem_a3()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Chocolate mud cake";
+				cell2.innerHTML="960 LKR";
+				
+				
+}
+		function addToCart_a4(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a4");
+				x.setAttribute("onclick", "removeItem_a4()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Coffee flavored cake";
+				cell2.innerHTML="1200 LKR";			
+}
+			function addToCart_a5(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a5");
+				x.setAttribute("onclick", "removeItem_a5()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Red velvet cake";
+				cell2.innerHTML="850 LKR";			
+		}
+		function addToCart_a6(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a6");
+				x.setAttribute("onclick", "removeItem_a6()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Orange flavored cake";
+				cell2.innerHTML="910 LKR";			
+		}
+		function addToCart_a7(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a7");
+				x.setAttribute("onclick", "removeItem_a7()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Banana with cream cheese";
+				cell2.innerHTML="860 LKR";			
+		}
+		function addToCart_a8(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a8");
+				x.setAttribute("onclick", "removeItem_a8()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Vanilla flavored cake";
+				cell2.innerHTML="790 LKR";			
+		}
+		function addToCart_a9(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-a9");
+				x.setAttribute("onclick", "removeItem_a9()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Layered rainbow cake";
+				cell2.innerHTML="1100 LKR";				
+		}
+		function addToCart_b1(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b1");
+				x.setAttribute("onclick", "removeItem_b1()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Dark Chocolate Cupcakes";
+				cell2.innerHTML="960 LKR";			
+		}
+		function addToCart_b2(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b2");
+				x.setAttribute("onclick", "removeItem_b2()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Margarita Cupcakes";
+				cell2.innerHTML="800 LKR";			
+		}
+		function addToCart_b3(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b3");
+				x.setAttribute("onclick", "removeItem_b3()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Chocolate Cupcake";
+				cell2.innerHTML="460 LKR";				
+		}
+		function addToCart_b4(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b4");
+				x.setAttribute("onclick", "removeItem_b4()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Lemon flavored cupcakes";
+				cell2.innerHTML="720 LKR";				
+		}
+		function addToCart_b5(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b5");
+				x.setAttribute("onclick", "removeItem_b5()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Peanut Butter";
+				cell2.innerHTML="490 LKR";				
+		}
+		function addToCart_b6(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-b6");
+				x.setAttribute("onclick", "removeItem_b6()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Carrot cake";
+				cell2.innerHTML="550 LKR";				
+		}
+		function addToCart_c1(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-c1");
+				x.setAttribute("onclick", "removeItem_c1()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Creamy Vanilla Fruit Cake";
+				cell2.innerHTML="790 LKR";				
+		}
+		function addToCart_c2(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-c2");
+				x.setAttribute("onclick", "removeItem_c2()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Blueberry Glaze Cake";
+				cell2.innerHTML="910 LKR";				
+		}
+		function addToCart_c3(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-c3");
+				x.setAttribute("onclick", "removeItem_c3()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Rich Chocolate Cake";
+				cell2.innerHTML="860 LKR";				
+		}
+		function addToCart_c4(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-c4");
+				x.setAttribute("onclick", "removeItem_c4()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Fruit with vanilla Cake";
+				cell2.innerHTML="940 LKR";			
+		}
+		function addToCart_c5(){
+				var table=document.getElementById("myTable");
+				var row=table.insertRow(0);
+				var cell1=row.insertCell(0);
+				var cell2=row.insertCell(1);
+				
+				var x = document.createElement("BUTTON");
+				x.setAttribute("id", "btn-remove-c5");
+				x.setAttribute("onclick", "removeItem_c5()");
+  				var t = document.createTextNode("Remove");
+  				x.appendChild(t);
+  				row.appendChild(x);
+				
+				cell1.innerHTML="Strawberry Cake";
+				cell2.innerHTML="950 LKR";				
+		}
+		function totalFunction(){
+		var table=document.getElementById("myTable"), sumVal = 0;
+        for(var i =0 ; i < (table.rows.length-1); i++){
+			sumVal = sumVal + parseInt(table.rows[i].cells[1].innerHTML);
+		}
+        document.getElementById("val").innerHTML = "Total = " +sumVal+" LKR";
+		}	
+		</script>
+		
+	</head>
+
+
+	<body>
+
+<!----------------------------------------------Nanigation Bar---------------------------------------------->
+	
+		<ul class="nav-list-1">
+			<li><img class="logo" src="logo.png" alt="logo"></li>
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="menu0.html">CAKE STORE</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="myacc.html">MY ACCOUNT</a></li>
+			<li><a href="cart.html">MARKET PLACE</a></li>
+		</ul>
+		<br/><br/><br/><br/><br/>
+		
+
+<!----------------------------------------------table---------------------------------------------->
+		<div class="table-container">
+			<ul class="table-headdings">
+				<li>Product</li>
+				<li>Price</li>
+				<li>Remove Item</li>
+			</ul>				
+			<table id="myTable">
+				<tr>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+			</table>
+			<div class="total">
+				<button onclick=totalFunction()>Calculate Total</button>
+				<span id="val"></span>
+			</div>
+		</div>
+				
+		
+<!--------------------------------------Items for cart------------------------------------------>
+		
+		<div class="scroll-a">
+			<div class="scroll-b">
+				<section class="cart-card-row">
+					<div class="cart-card">
+							<img src="a1.jpeg" alt="cake">
+							<p class="cart-card-desc">Sponge Cake<br/>Rs 820</p>
+							<a class="cart-btn-view" onclick="addToCart_a1()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+							<img src="a2.jpeg" alt="cake">
+							<p class="cart-card-desc">Baked lemon cheesecake<br/>Rs 930</p>
+							<a class="cart-btn-view" onclick="addToCart_a2()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+							<img src="a3.jpeg" alt="cake">
+							<p class="cart-card-desc">Chocolate mud cake<br/>Rs 960</p>
+							<a class="cart-btn-view" onclick="addToCart_a3()">Add to cart</a>
+					</div>
+				</section>
+				<section class="cart-card-row">
+					<div class="cart-card">
+							<img src="a4.jpeg" alt="cake">
+							<p class="cart-card-desc">Coffee flavored cake<br/>Rs 1200</p>
+							<a class="cart-btn-view" onclick="addToCart_a4()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+							<img src="a5.jpeg" alt="cake">
+							<p class="cart-card-desc">Red velvet cake<br/>Rs 850</p>
+							<a class="cart-btn-view" onclick="addToCart_a5()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+							<img src="a6.jpeg" alt="cake">
+							<p class="cart-card-desc">Orange flavored cake<br/>Rs 910</p>
+							<a class="cart-btn-view" onclick="addToCart_a6()">Add to cart</a>
+					</div>
+				</section>
+				<section class="cart-card-row">
+					<div class="cart-card">
+						<img src="a7.jpeg" alt="cake">
+						<p class="cart-card-desc">Banana with cream cheese<br/>Rs 860</p>
+						<a class="cart-btn-view" onclick="addToCart_a7()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="a8.jpeg" alt="cake">
+						<p class="cart-card-desc">Vanilla flavored cake<br/>Rs 790</p>
+						<a class="cart-btn-view" onclick="addToCart_a8()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="a9.jpeg" alt="cake">
+						<p class="cart-card-desc">Layered rainbow cake<br/>Rs 1100</p>
+						<a class="cart-btn-view" onclick="addToCart_a9()">Add to cart</a>
+					</div>
+				</section>
+				<section class="cart-card-row">
+					<div class="cart-card">
+						<img src="b1.jpeg" alt="cake">
+						<p class="cart-card-desc">Dark Chocolate Cupcakes<br/>Rs 960</p>
+						<a class="cart-btn-view" onclick="addToCart_b1()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="b2.jpeg" alt="cake">
+						<p class="cart-card-desc">Margarita Cupcakes<br/>Rs 830</p>
+						<a class="cart-btn-view" onclick="addToCart_b2()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="b3.jpeg" alt="cake">
+						<p class="cart-card-desc">Chocolate Cupcake<br/>Rs 460</p>
+						<a class="cart-btn-view" onclick="addToCart_b3()">Add to cart</a>
+					</div>
+				</section>
+				
+				<section class="cart-card-row">
+					<div class="cart-card">
+						<img src="b4.jpeg" alt="cake">
+						<p class="cart-card-desc">Lemon flavored cupcakes<br/>Rs 720</p>
+						<a class="cart-btn-view" onclick="addToCart_b4()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="b5.jpg" alt="cake">
+						<p class="cart-card-desc">Peanut Butter<br/>Rs 490</p>
+						<a class="cart-btn-view" onclick="addToCart_b5()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="b6.jpg" alt="cake">
+						<p class="cart-card-desc">Carrot cake<br/>Rs 550</p>
+						<a class="cart-btn-view" onclick="addToCart_b6()">Add to cart</a>
+					</div>
+				</section>
+				<section class="cart-card-row">
+				<div class="cart-card">
+					<img src="c1.jpeg" alt="cake">
+					<p class="cart-card-desc">Creamy Vanilla Fruit Cake<br/>Rs 790</p>
+					<a class="cart-btn-view" onclick="addToCart_c1()">Add to cart</a>
+				</div>
+				<div class="cart-card">
+					<img src="c2.jpeg" alt="cake">
+					<p class="cart-card-desc">Blueberry Glaze Cake<br/>Rs 910</p>
+					<a class="cart-btn-view" onclick="addToCart_c2()">Add to cart</a>
+				</div>
+				<div class="cart-card">
+					<img src="c3.jpeg" alt="cake">
+					<p class="cart-card-desc">Rich Chocolate Cake<br/>Rs 860</p>
+					<a class="cart-btn-view" onclick="addToCart_c3()">Add to cart</a>
+				</div>
+				</section>
+				
+				<section class="cart-card-row">
+					<div class="cart-card">
+						<img src="c4.jpeg" alt="cake">
+						<p class="cart-card-desc">Fruit with vanilla Cake<br/>Rs 940</p>
+						<a class="cart-btn-view" onclick="addToCart_c4()">Add to cart</a>
+					</div>
+					<div class="cart-card">
+						<img src="c5.jpeg" alt="cake">
+						<p class="cart-card-desc">Strawberry Cake<br/>Rs 950</p>
+						<a class="cart-btn-view" onclick="addToCart_c5()">Add to cart</a>
+					</div>
+				</section>
+			</div>
+		</div>				
+<!-------------------------------------------footer--------------------------------------------------->
+		<div class="foo">
+			<div class="foo-col">
+				<h3>Pramodaya's Cake Store</h3>
+				<ul>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="#">Job vacancies</a></li>
+					<li><a href="myacc.html">My Account</a></li>
+				</ul>
+		
+			</div>
+			<div class="foo-col">
+				<h3>Our Products</h3>
+				<ul>
+					<li><a href="menu1.html">Classic Cakes</a></li>
+					<li><a href="menu3.html">Birthday Cakes</a></li>
+					<li><a href="menu2.html">Cup Cakes</a></li>
+				</ul>
+			</div>
+			<div class="foo-col">
+				<h3>Follow us on</h3>
+				<div class="foo-social">
+					<a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+		</div>
+	</body>
+</html>
